@@ -1,0 +1,16 @@
+MIDlet-Name: PlateMe
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: BlackBerry Developer
+MIDlet-Jar-URL: PlateMe.jar
+MIDlet-Jar-Size: 17186
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-1: ,img/icon.png,
+RIM-MIDlet-Flags-1: 0
+Manifest-Version: 1.0
+RIM-COD-URL: PlateMe.cod
+RIM-COD-Size: 10140
+RIM-COD-Creation-Time: 1333692270
+RIM-COD-Module-Name: PlateMe
+RIM-COD-Module-Dependencies: net_rim_cldc
+RIM-COD-SHA1: 67 a9 2f cc ac 3f 26 08 47 fb eb 53 6a 62 0f 4a f9 91 1b 5a

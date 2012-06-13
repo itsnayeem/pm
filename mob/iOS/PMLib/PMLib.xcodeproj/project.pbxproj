@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A13FDF2150854EC00847564 /* autolink.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A13FDE0150854EC00847564 /* autolink.h */; };
+		0A13FDF3150854EC00847564 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A13FDE1150854EC00847564 /* config.h */; };
+		0A13FDF4150854EC00847564 /* features.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A13FDE2150854EC00847564 /* features.h */; };
+		0A13FDF5150854EC00847564 /* forwards.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A13FDE3150854EC00847564 /* forwards.h */; };
+		0A13FDF6150854EC00847564 /* json.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A13FDE4150854EC00847564 /* json.h */; };
+		0A13FDF7150854EC00847564 /* reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A13FDE5150854EC00847564 /* reader.h */; };
+		0A13FDF8150854EC00847564 /* value.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A13FDE6150854EC00847564 /* value.h */; };
+		0A13FDF9150854EC00847564 /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A13FDE7150854EC00847564 /* writer.h */; };
+		0A13FDFA150854EC00847564 /* json_batchallocator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A13FDEA150854EC00847564 /* json_batchallocator.h */; };
+		0A13FDFB150854EC00847564 /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A13FDED150854EC00847564 /* json_reader.cpp */; };
+		0A13FDFC150854EC00847564 /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A13FDEE150854EC00847564 /* json_value.cpp */; };
+		0A13FDFD150854EC00847564 /* json_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A13FDF0150854EC00847564 /* json_writer.cpp */; };
+		0A13FE081508554900847564 /* PMData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A13FDFF1508554900847564 /* PMData.h */; };
+		0A13FE091508554900847564 /* PMLibCpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A13FE001508554900847564 /* PMLibCpp.cpp */; };
+		0A13FE0A1508554900847564 /* PMLibCpp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A13FE011508554900847564 /* PMLibCpp.h */; };
+		0A13FE0D1508554900847564 /* PMServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A13FE041508554900847564 /* PMServer.cpp */; };
+		0A13FE0E1508554900847564 /* PMServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A13FE051508554900847564 /* PMServer.h */; };
+		0A13FE0F1508554900847564 /* PMServerHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A13FE061508554900847564 /* PMServerHelper.cpp */; };
+		0A13FE101508554900847564 /* PMServerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A13FE071508554900847564 /* PMServerHelper.h */; };
+		0A8F063614BBD722008273C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8F063514BBD722008273C8 /* Foundation.framework */; };
+		0A8F063C14BBD722008273C8 /* PMLib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F063B14BBD722008273C8 /* PMLib.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A13FDE0150854EC00847564 /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autolink.h; sourceTree = "<group>"; };
+		0A13FDE1150854EC00847564 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		0A13FDE2150854EC00847564 /* features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = features.h; sourceTree = "<group>"; };
+		0A13FDE3150854EC00847564 /* forwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forwards.h; sourceTree = "<group>"; };
+		0A13FDE4150854EC00847564 /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		0A13FDE5150854EC00847564 /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
+		0A13FDE6150854EC00847564 /* value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = value.h; sourceTree = "<group>"; };
+		0A13FDE7150854EC00847564 /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		0A13FDEA150854EC00847564 /* json_batchallocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_batchallocator.h; sourceTree = "<group>"; };
+		0A13FDEB150854EC00847564 /* json_internalarray.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalarray.inl; sourceTree = "<group>"; };
+		0A13FDEC150854EC00847564 /* json_internalmap.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalmap.inl; sourceTree = "<group>"; };
+		0A13FDED150854EC00847564 /* json_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_reader.cpp; sourceTree = "<group>"; };
+		0A13FDEE150854EC00847564 /* json_value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_value.cpp; sourceTree = "<group>"; };
+		0A13FDEF150854EC00847564 /* json_valueiterator.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_valueiterator.inl; sourceTree = "<group>"; };
+		0A13FDF0150854EC00847564 /* json_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_writer.cpp; sourceTree = "<group>"; };
+		0A13FDF1150854EC00847564 /* sconscript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sconscript; sourceTree = "<group>"; };
+		0A13FDFF1508554900847564 /* PMData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMData.h; sourceTree = "<group>"; };
+		0A13FE001508554900847564 /* PMLibCpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PMLibCpp.cpp; sourceTree = "<group>"; };
+		0A13FE011508554900847564 /* PMLibCpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMLibCpp.h; sourceTree = "<group>"; };
+		0A13FE041508554900847564 /* PMServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PMServer.cpp; sourceTree = "<group>"; };
+		0A13FE051508554900847564 /* PMServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMServer.h; sourceTree = "<group>"; };
+		0A13FE061508554900847564 /* PMServerHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PMServerHelper.cpp; sourceTree = "<group>"; };
+		0A13FE071508554900847564 /* PMServerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMServerHelper.h; sourceTree = "<group>"; };
+		0A8F063214BBD722008273C8 /* libPMLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPMLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8F063514BBD722008273C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A8F063914BBD722008273C8 /* PMLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PMLib-Prefix.pch"; sourceTree = "<group>"; };
+		0A8F063A14BBD722008273C8 /* PMLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMLib.h; sourceTree = "<group>"; };
+		0A8F063B14BBD722008273C8 /* PMLib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PMLib.mm; sourceTree = "<group>"; };
+		0A8F064314BBD722008273C8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0A8F064514BBD722008273C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A8F062F14BBD721008273C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8F063614BBD722008273C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A13FDDD150854EC00847564 /* jsonCpp */ = {
+			isa = PBXGroup;
+			children = (
+				0A13FDDE150854EC00847564 /* include */,
+				0A13FDE8150854EC00847564 /* src */,
+			);
+			name = jsonCpp;
+			path = ../../../common/jsonCpp;
+			sourceTree = "<group>";
+		};
+		0A13FDDE150854EC00847564 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0A13FDDF150854EC00847564 /* json */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		0A13FDDF150854EC00847564 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				0A13FDE0150854EC00847564 /* autolink.h */,
+				0A13FDE1150854EC00847564 /* config.h */,
+				0A13FDE2150854EC00847564 /* features.h */,
+				0A13FDE3150854EC00847564 /* forwards.h */,
+				0A13FDE4150854EC00847564 /* json.h */,
+				0A13FDE5150854EC00847564 /* reader.h */,
+				0A13FDE6150854EC00847564 /* value.h */,
+				0A13FDE7150854EC00847564 /* writer.h */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		0A13FDE8150854EC00847564 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0A13FDE9150854EC00847564 /* lib_json */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0A13FDE9150854EC00847564 /* lib_json */ = {
+			isa = PBXGroup;
+			children = (
+				0A13FDEA150854EC00847564 /* json_batchallocator.h */,
+				0A13FDEB150854EC00847564 /* json_internalarray.inl */,
+				0A13FDEC150854EC00847564 /* json_internalmap.inl */,
+				0A13FDED150854EC00847564 /* json_reader.cpp */,
+				0A13FDEE150854EC00847564 /* json_value.cpp */,
+				0A13FDEF150854EC00847564 /* json_valueiterator.inl */,
+				0A13FDF0150854EC00847564 /* json_writer.cpp */,
+				0A13FDF1150854EC00847564 /* sconscript */,
+			);
+			path = lib_json;
+			sourceTree = "<group>";
+		};
+		0A13FDFE1508554900847564 /* PMLibCpp */ = {
+			isa = PBXGroup;
+			children = (
+				0A13FDFF1508554900847564 /* PMData.h */,
+				0A13FE001508554900847564 /* PMLibCpp.cpp */,
+				0A13FE011508554900847564 /* PMLibCpp.h */,
+				0A13FE041508554900847564 /* PMServer.cpp */,
+				0A13FE051508554900847564 /* PMServer.h */,
+				0A13FE061508554900847564 /* PMServerHelper.cpp */,
+				0A13FE071508554900847564 /* PMServerHelper.h */,
+			);
+			name = PMLibCpp;
+			path = ../../../common/PMLibCpp;
+			sourceTree = "<group>";
+		};
+		0A8F062714BBD721008273C8 = {
+			isa = PBXGroup;
+			children = (
+				0A8F063714BBD722008273C8 /* PMLib */,
+				0A8F063414BBD722008273C8 /* Frameworks */,
+				0A8F063314BBD722008273C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A8F063314BBD722008273C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F063214BBD722008273C8 /* libPMLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A8F063414BBD722008273C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F063514BBD722008273C8 /* Foundation.framework */,
+				0A8F064314BBD722008273C8 /* SenTestingKit.framework */,
+				0A8F064514BBD722008273C8 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A8F063714BBD722008273C8 /* PMLib */ = {
+			isa = PBXGroup;
+			children = (
+				0A13FDFE1508554900847564 /* PMLibCpp */,
+				0A13FDDD150854EC00847564 /* jsonCpp */,
+				0A8F063A14BBD722008273C8 /* PMLib.h */,
+				0A8F063B14BBD722008273C8 /* PMLib.mm */,
+				0A8F063814BBD722008273C8 /* Supporting Files */,
+			);
+			path = PMLib;
+			sourceTree = "<group>";
+		};
+		0A8F063814BBD722008273C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F063914BBD722008273C8 /* PMLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A8F063014BBD721008273C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A13FDF2150854EC00847564 /* autolink.h in Headers */,
+				0A13FDF3150854EC00847564 /* config.h in Headers */,
+				0A13FDF4150854EC00847564 /* features.h in Headers */,
+				0A13FDF5150854EC00847564 /* forwards.h in Headers */,
+				0A13FDF6150854EC00847564 /* json.h in Headers */,
+				0A13FDF7150854EC00847564 /* reader.h in Headers */,
+				0A13FDF8150854EC00847564 /* value.h in Headers */,
+				0A13FDF9150854EC00847564 /* writer.h in Headers */,
+				0A13FDFA150854EC00847564 /* json_batchallocator.h in Headers */,
+				0A13FE081508554900847564 /* PMData.h in Headers */,
+				0A13FE0A1508554900847564 /* PMLibCpp.h in Headers */,
+				0A13FE0E1508554900847564 /* PMServer.h in Headers */,
+				0A13FE101508554900847564 /* PMServerHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A8F063114BBD721008273C8 /* PMLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8F065614BBD722008273C8 /* Build configuration list for PBXNativeTarget "PMLib" */;
+			buildPhases = (
+				0A8F062E14BBD721008273C8 /* Sources */,
+				0A8F062F14BBD721008273C8 /* Frameworks */,
+				0A8F063014BBD721008273C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PMLib;
+			productName = PMLib;
+			productReference = 0A8F063214BBD722008273C8 /* libPMLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A8F062914BBD721008273C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0A8F062C14BBD721008273C8 /* Build configuration list for PBXProject "PMLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A8F062714BBD721008273C8;
+			productRefGroup = 0A8F063314BBD722008273C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A8F063114BBD721008273C8 /* PMLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A8F062E14BBD721008273C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8F063C14BBD722008273C8 /* PMLib.mm in Sources */,
+				0A13FDFB150854EC00847564 /* json_reader.cpp in Sources */,
+				0A13FDFC150854EC00847564 /* json_value.cpp in Sources */,
+				0A13FDFD150854EC00847564 /* json_writer.cpp in Sources */,
+				0A13FE091508554900847564 /* PMLibCpp.cpp in Sources */,
+				0A13FE0D1508554900847564 /* PMServer.cpp in Sources */,
+				0A13FE0F1508554900847564 /* PMServerHelper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A8F065414BBD722008273C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A8F065514BBD722008273C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A8F065714BBD722008273C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anthony Spallone (Y9S5YLXGV9)";
+				DSTROOT = /tmp/PMLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMLib/PMLib-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../common/jsonCpp/include\"",
+					"\"$(SRCROOT)/../../common/libcurl/include\"",
+					"\"$(SRCROOT)/../../common/PMLibCpp\"",
+					"\"$(SRCROOT)/../../common/libcurl/lib\"",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "-D__ARM_ARCH_5__";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7403885E-0E57-47E0-9BBC-8669042F2E10";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0A8F065814BBD722008273C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anthony Spallone (Y9S5YLXGV9)";
+				DSTROOT = /tmp/PMLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMLib/PMLib-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../common/jsonCpp/include\"",
+					"\"$(SRCROOT)/../../common/libcurl/include\"",
+					"\"$(SRCROOT)/../../common/PMLibCpp\"",
+					"\"$(SRCROOT)/../../common/libcurl/lib\"",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "-D__ARM_ARCH_5__";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7403885E-0E57-47E0-9BBC-8669042F2E10";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A8F062C14BBD721008273C8 /* Build configuration list for PBXProject "PMLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8F065414BBD722008273C8 /* Debug */,
+				0A8F065514BBD722008273C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8F065614BBD722008273C8 /* Build configuration list for PBXNativeTarget "PMLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8F065714BBD722008273C8 /* Debug */,
+				0A8F065814BBD722008273C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A8F062914BBD721008273C8 /* Project object */;
+}

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "1.0">
+   <FileBreakpoints>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "0"
+         filePath = "../common/PMLibCpp/PMServer.cpp"
+         timestampString = "355369913.215766"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "497"
+         endingLineNumber = "497"
+         landmarkName = "PMServer::executeCommandRequest(CurlCommandData&amp; curlCommandData, const Json::Value&amp; command, Json::Value&amp; response, ApiCommand commandType, const char* fileName, unsigned int requestId, void** rawData, size_t* rawDataSize)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "0"
+         filePath = "../common/PMLibCpp/PMServer.cpp"
+         timestampString = "355369913.215766"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "473"
+         endingLineNumber = "473"
+         landmarkName = "PMServer::executeCommandRequest(CurlCommandData&amp; curlCommandData, const Json::Value&amp; command, Json::Value&amp; response, ApiCommand commandType, const char* fileName, unsigned int requestId, void** rawData, size_t* rawDataSize)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "0"
+         filePath = "../common/PMLibCpp/PMServer.cpp"
+         timestampString = "355369913.215766"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "466"
+         endingLineNumber = "466"
+         landmarkName = "PMServer::executeCommandRequest(CurlCommandData&amp; curlCommandData, const Json::Value&amp; command, Json::Value&amp; response, ApiCommand commandType, const char* fileName, unsigned int requestId, void** rawData, size_t* rawDataSize)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "0"
+         filePath = "../common/PMLibCpp/PMServer.cpp"
+         timestampString = "355706650.740662"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "565"
+         endingLineNumber = "565"
+         landmarkName = "PMServer::Login(const char* username, const char* password, bool signInRemember)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "0"
+         filePath = "../common/PMLibCpp/PMServer.cpp"
+         timestampString = "355706650.740662"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "568"
+         endingLineNumber = "568"
+         landmarkName = "PMServer::Login(const char* username, const char* password, bool signInRemember)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "0"
+         filePath = "../common/PMLibCpp/PMServer.cpp"
+         timestampString = "355369913.215766"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "496"
+         endingLineNumber = "496"
+         landmarkName = "PMServer::executeCommandRequest(CurlCommandData&amp; curlCommandData, const Json::Value&amp; command, Json::Value&amp; response, ApiCommand commandType, const char* fileName, unsigned int requestId, void** rawData, size_t* rawDataSize)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "0"
+         filePath = "../common/PMLibCpp/PMServer.cpp"
+         timestampString = "355369913.215766"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "358"
+         endingLineNumber = "358"
+         landmarkName = "PMServer::executeCommandRequest(CurlCommandData&amp; curlCommandData, const Json::Value&amp; command, Json::Value&amp; response, ApiCommand commandType, const char* fileName, unsigned int requestId, void** rawData, size_t* rawDataSize)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "0"
+         filePath = "../common/PMLibCpp/PMServer.cpp"
+         timestampString = "355369913.215766"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "501"
+         endingLineNumber = "501"
+         landmarkName = "PMServer::executeCommandRequest(CurlCommandData&amp; curlCommandData, const Json::Value&amp; command, Json::Value&amp; response, ApiCommand commandType, const char* fileName, unsigned int requestId, void** rawData, size_t* rawDataSize)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "PlateMe/Classes/PostTableViewController.m"
+         timestampString = "355614073.130479"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "258"
+         endingLineNumber = "258"
+         landmarkName = "-fillCellWithPostData::"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "PlateMe/Classes/lib/PMServer.mm"
+         timestampString = "355595799.327551"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "370"
+         endingLineNumber = "370"
+         landmarkName = "-UploadGalleryImage:::"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "0"
+         filePath = "../common/PMLibCpp/PMServer.cpp"
+         timestampString = "355900096.537739"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "1140"
+         endingLineNumber = "1140"
+         landmarkName = "PMServer::UploadGalleryImage(const char* plateId, const char* fileName, unsigned int requestId, std::string&amp; url)"
+         landmarkType = "5">
+      </FileBreakpoint>
+   </FileBreakpoints>
+   <SymbolicBreakpoints>
+      <SymbolicBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         symbolName = "objc_exception_throw"
+         moduleName = "">
+      </SymbolicBreakpoint>
+   </SymbolicBreakpoints>
+</Bucket>

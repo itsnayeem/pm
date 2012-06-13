@@ -1,0 +1,15 @@
+C:\Users\User\PlateMe\PlateMe\Bin\Debug\ApplicationIcon.png
+C:\Users\User\PlateMe\PlateMe\Bin\Debug\Background.png
+C:\Users\User\PlateMe\PlateMe\Bin\Debug\PlateMe.dll
+C:\Users\User\PlateMe\PlateMe\Bin\Debug\PlateMe.pdb
+C:\Users\User\PlateMe\PlateMe\Bin\Debug\PlateMe.xml
+C:\Users\User\PlateMe\PlateMe\Bin\Debug\AppManifest.xaml
+C:\Users\User\PlateMe\PlateMe\Bin\Debug\PlateMe.xap
+C:\Users\User\PlateMe\PlateMe\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\User\PlateMe\PlateMe\obj\Debug\App.g.i.vb
+C:\Users\User\PlateMe\PlateMe\obj\Debug\MainPage.g.i.vb
+C:\Users\User\PlateMe\PlateMe\obj\Debug\PlateMe.g.resources
+C:\Users\User\PlateMe\PlateMe\obj\Debug\PlateMe.dll
+C:\Users\User\PlateMe\PlateMe\obj\Debug\PlateMe.xml
+C:\Users\User\PlateMe\PlateMe\obj\Debug\PlateMe.pdb
+C:\Users\User\PlateMe\PlateMe\obj\Debug\XapCacheFile.xml

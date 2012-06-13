@@ -1,0 +1,283 @@
+22:26:34,969 TRACE [R] ContextManager starting, bundle version: 1.5.0.201112201607
+22:26:35,260 DEBUG [C] Property change listener is enabled.
+22:26:35,585 TRACE [R] ContextManager startingneed update: true
+22:26:35,590 DEBUG [I] Attempting To Create vmTools Directory: C:/Eclipse/plugins/net.rim.ejde/vmTools
+22:26:35,593 DEBUG [T] Starting Search for CPs
+22:26:35,602 DEBUG [T] CP named BlackBerry Java SDK version 7.0.0 was found at C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components
+22:26:36,197 DEBUG [K] VM: *ADDED* [1333682796055$C:\Program Files (x86)\Java\jre6]
+22:26:36,501 TRACE [V] Attempting to create VM with name - BlackBerry JRE 7.0.0
+22:26:36,538 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components]
+22:26:37,039 TRACE [C] openStartupOnEclpseFirstStart was changed from "false" to "false"
+22:26:37,234 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+22:26:43,939 DEBUG [B] PROVIDER NAME: Update Manager Configurator
+22:26:43,995 DEBUG [B] Found ejde feature: net.rim.EclipseJDE version 1.5.0.201112201607
+22:26:43,995 DEBUG [B] qualifier: 0
+22:27:05,528 DEBUG [B] qualifier: 19
+22:29:23,624 DEBUG [G] Instance [14510823] of [class net.rim.ejde.internal.I.K.B] created.
+22:31:51,358 TRACE [R] setBBProperties(); PlateMe; false
+22:31:51,359 TRACE [R] Writing C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+22:31:51,644 TRACE [R] Finish writing C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+22:31:51,657 TRACE [R] setBBProperties(); PlateMe; true
+22:31:51,658 TRACE [R] Writing C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+22:31:51,661 TRACE [R] Finish writing C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+22:31:51,887 TRACE [d] ****** Get resource for PlateMe
+22:31:51,893 DEBUG [C] Validating project PlateMe
+22:31:51,912 TRACE [d] ****** Get resource for PlateMe
+22:31:51,958 TRACE [A] Entering PreprocessingBuilder build();kind=6
+22:31:51,987 TRACE [A] Preprocessing file : C:/Users/User/BlackBerryWorkspace/PlateMe/src/PlateMePackage/PlateMeScreen.java
+22:31:52,378 TRACE [A] File PlateMeScreen.java is marked as need to be built by java compiler.
+22:31:52,381 TRACE [A] Preprocessing file : C:/Users/User/BlackBerryWorkspace/PlateMe/src/PlateMePackage/PlateMeApplication.java
+22:31:52,382 TRACE [A] File PlateMeApplication.java is marked as need to be built by java compiler.
+22:31:52,383 TRACE [A] Leaving PreprocessingBuilder build()
+22:31:52,384 TRACE [B] Entering ResourcesBuilder build();kind=6
+22:31:52,385 TRACE [B] Leaving ResourcesBuilder build()
+22:31:52,472 TRACE [B] Refreshing the resource section for PlateMe
+22:31:52,472 TRACE [d] ****** Get resource for PlateMe
+22:31:52,552 TRACE [A] Project PlateMe is marked as need RAPC.
+22:31:52,604 DEBUG [R] RIA Initialization is started for C:/Eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components.....
+22:31:53,363 DEBUG [R] RIA Initialization finished in : 1 ms
+22:31:53,363 DEBUG [V] SigningKey cache is populated for vm: BlackBerry JRE 7.0.0
+22:31:53,538 TRACE [d] ****** Get resource for PlateMe
+22:32:52,592 TRACE [A] Entering PreprocessingBuilder build();kind=9
+22:32:52,593 TRACE [A] Leaving PreprocessingBuilder build()
+22:32:52,594 TRACE [B] Entering ResourcesBuilder build();kind=9
+22:32:52,594 TRACE [B] Leaving ResourcesBuilder build()
+22:34:18,809 DEBUG [K] Packaging PlateMe
+22:34:19,007 TRACE [F] Execute rapc command: C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\bin\rapc.exe -convertpng -quiet codename=deliverables\Standard\7.0.0\PlateMe -sourceroot=C:\Users\User\BlackBerryWorkspace\PlateMe\src;C:\Users\User\BlackBerryWorkspace\PlateMe\res -import=C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\lib\net_rim_api.jar deliverables\Standard\7.0.0\PlateMe.rapc C:\Users\User\BlackBerryWorkspace\PlateMe\bin; Working Directory: C:\Users\User\BlackBerryWorkspace\PlateMe
+22:34:21,513 TRACE [A] Project PlateMe is marked as not need RAPC.
+22:34:21,517 TRACE [A] Project PlateMe folder copy: deliverables/Standard/7.0.0 --> deliverables/Web/7.0.0
+22:34:21,523 TRACE [L] Copy PlateMe.cod
+22:34:21,525 TRACE [L] Copy PlateMe.cso
+22:34:21,526 TRACE [L] Copy PlateMe.debug
+22:34:21,527 TRACE [L] Copy PlateMe.jad
+22:34:21,528 TRACE [L] Copy PlateMe.jar
+22:34:21,537 TRACE [L] Copy PlateMe.rapc
+22:34:21,547 TRACE [L] Project PlateMe undeploy from C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator
+22:34:21,547 TRACE [L] Project PlateMe deploy --> C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator
+22:34:21,548 TRACE [L] Copy PlateMe.cod
+22:34:21,556 TRACE [L] Copy PlateMe.jar
+22:34:21,557 TRACE [L] Copy PlateMe.debug
+22:34:21,558 TRACE [L] Copy PlateMe.cso
+22:34:21,649 TRACE [A] Entering PreprocessingBuilder build();kind=9
+22:34:21,651 TRACE [A] Leaving PreprocessingBuilder build()
+22:34:21,651 TRACE [B] Entering ResourcesBuilder build();kind=9
+22:34:21,652 TRACE [B] Leaving ResourcesBuilder build()
+22:34:21,691 INFO  [K] Simulator launch command:"C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator\fledge.exe" /handheld=9930 /app-param=JvmAlxConfigFile:9930.xml /pin=0x2100000A /data-port=0x4d44 /data-port=0x4d4e /session=9930 /app-param=launch=PlateMe /app="C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator\Jvm.dll" /app-param=DisableRegistration
+22:34:21,691 INFO  [K] Working directory:C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator
+22:34:21,691 INFO  [K] Launch MDS-CS:false
+22:34:21,691 INFO  [K] MDS-CS directory:C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\MDS
+23:01:09,515 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+23:01:09,787 DEBUG [C] Property change listener is disabled.
+00:58:46,783 TRACE [R] ContextManager starting, bundle version: 1.5.0.201112201607
+00:58:46,943 DEBUG [C] Property change listener is enabled.
+00:58:47,127 TRACE [R] ContextManager startingneed update: true
+00:58:47,133 DEBUG [T] Starting Search for CPs
+00:58:47,180 DEBUG [T] CP named BlackBerry Java SDK version 7.0.0 was found at C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components
+00:58:47,201 DEBUG [B] qualifier: 0
+00:58:47,289 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components]
+00:58:47,341 DEBUG [K] VM: *ADDED* [1333682796055$C:\Program Files (x86)\Java\jre6]
+00:58:47,342 TRACE [V] Attempting to create VM with name - BlackBerry JRE 7.0.0
+00:58:47,402 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+00:58:48,696 TRACE [R] loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+00:58:48,821 TRACE [R] finished loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+00:58:48,998 TRACE [B] Refreshing the resource section for PlateMe
+00:58:48,998 TRACE [d] ****** Get resource for PlateMe
+00:59:08,578 DEBUG [B] qualifier: 19
+00:59:08,745 TRACE [A] Entering PreprocessingBuilder build();kind=9
+00:59:08,752 TRACE [A] Leaving PreprocessingBuilder build()
+00:59:08,755 TRACE [B] Entering ResourcesBuilder build();kind=9
+00:59:08,756 TRACE [B] Leaving ResourcesBuilder build()
+00:59:45,535 DEBUG [C] Validating project PlateMe
+00:59:45,612 TRACE [d] ****** Get resource for PlateMe
+00:59:45,736 TRACE [A] Entering PreprocessingBuilder build();kind=9
+00:59:45,740 TRACE [A] Leaving PreprocessingBuilder build()
+00:59:45,740 TRACE [B] Entering ResourcesBuilder build();kind=9
+00:59:45,740 TRACE [B] Leaving ResourcesBuilder build()
+01:00:06,504 TRACE [d] ****** Get resource for PlateMe
+01:00:06,505 DEBUG [C] Validating project PlateMe
+01:00:06,517 TRACE [d] ****** Get resource for PlateMe
+01:00:06,522 TRACE [R] loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+01:00:06,531 TRACE [R] finished loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+01:00:06,550 TRACE [R] loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+01:00:06,553 TRACE [R] finished loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+01:00:06,668 TRACE [A] Entering PreprocessingBuilder build();kind=9
+01:00:06,670 TRACE [A] Leaving PreprocessingBuilder build()
+01:00:06,670 TRACE [B] Entering ResourcesBuilder build();kind=9
+01:00:06,671 TRACE [B] Leaving ResourcesBuilder build()
+01:00:06,687 TRACE [d] ****** Get resource for PlateMe
+01:00:06,688 TRACE [R] loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+01:00:06,691 TRACE [R] finished loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+01:00:06,693 TRACE [R] loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+01:00:06,695 TRACE [R] finished loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+01:00:06,696 TRACE [R] loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+01:00:06,698 TRACE [R] finished loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+01:00:06,699 TRACE [R] loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+01:00:06,702 TRACE [R] finished loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+01:00:07,737 TRACE [A] Entering PreprocessingBuilder build();kind=9
+01:00:07,739 TRACE [A] Leaving PreprocessingBuilder build()
+01:00:07,739 TRACE [B] Entering ResourcesBuilder build();kind=9
+01:00:07,739 TRACE [B] Leaving ResourcesBuilder build()
+01:01:12,348 TRACE [d] ****** Get resource for PlateMe
+01:01:12,349 DEBUG [C] Validating project PlateMe
+01:01:12,363 TRACE [d] ****** Get resource for PlateMe
+01:01:12,366 TRACE [R] loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+01:01:12,371 TRACE [R] finished loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+01:01:12,536 TRACE [A] Entering PreprocessingBuilder build();kind=9
+01:01:12,538 TRACE [A] Leaving PreprocessingBuilder build()
+01:01:12,538 TRACE [B] Entering ResourcesBuilder build();kind=9
+01:01:12,539 TRACE [B] Leaving ResourcesBuilder build()
+01:01:12,592 TRACE [d] ****** Get resource for PlateMe
+01:01:30,388 DEBUG [K] Packaging PlateMe
+01:01:30,459 TRACE [F] Execute rapc command: C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\bin\rapc.exe -convertpng -quiet codename=deliverables\Standard\7.0.0\PlateMe -sourceroot=C:\Users\User\BlackBerryWorkspace\PlateMe\src;C:\Users\User\BlackBerryWorkspace\PlateMe\res -import=C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\lib\net_rim_api.jar deliverables\Standard\7.0.0\PlateMe.rapc C:\Users\User\BlackBerryWorkspace\PlateMe\bin; Working Directory: C:\Users\User\BlackBerryWorkspace\PlateMe
+01:01:32,400 TRACE [A] Project PlateMe is marked as not need RAPC.
+01:01:32,402 TRACE [A] Project PlateMe folder copy: deliverables/Standard/7.0.0 --> deliverables/Web/7.0.0
+01:01:32,405 TRACE [L] Copy PlateMe.cod
+01:01:32,406 TRACE [L] Copy PlateMe.cso
+01:01:32,407 TRACE [L] Copy PlateMe.debug
+01:01:32,408 TRACE [L] Copy PlateMe.jad
+01:01:32,409 TRACE [L] Copy PlateMe.jar
+01:01:32,410 TRACE [L] Copy PlateMe.rapc
+01:01:32,480 DEBUG [R] RIA Initialization is started for C:/Eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components.....
+01:01:32,561 DEBUG [R] RIA Initialization finished in : 0 ms
+01:01:32,571 TRACE [A] Entering PreprocessingBuilder build();kind=9
+01:01:32,572 TRACE [A] Leaving PreprocessingBuilder build()
+01:01:32,573 TRACE [B] Entering ResourcesBuilder build();kind=9
+01:01:32,573 TRACE [B] Leaving ResourcesBuilder build()
+01:01:32,639 TRACE [L] Project PlateMe undeploy from C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator
+01:01:32,640 TRACE [L] Erase PlateMe.cod
+01:01:32,641 TRACE [L] Erase PlateMe.jar
+01:01:32,642 TRACE [L] Erase PlateMe.debug
+01:01:32,643 TRACE [L] Erase PlateMe.cso
+01:01:32,643 TRACE [L] Project PlateMe deploy --> C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator
+01:01:32,643 TRACE [L] Copy PlateMe.cod
+01:01:32,644 TRACE [L] Copy PlateMe.jar
+01:01:32,645 TRACE [L] Copy PlateMe.debug
+01:01:32,646 TRACE [L] Copy PlateMe.cso
+01:01:32,686 INFO  [K] Simulator launch command:"C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator\fledge.exe" /handheld=9930 /app-param=JvmAlxConfigFile:9930.xml /pin=0x2100000A /data-port=0x4d44 /data-port=0x4d4e /session=9930 /app-param=launch=PlateMe /app="C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator\Jvm.dll" /app-param=DisableRegistration
+01:01:32,686 INFO  [K] Working directory:C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator
+01:01:32,686 INFO  [K] Launch MDS-CS:false
+01:01:32,686 INFO  [K] MDS-CS directory:C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\MDS
+01:04:28,694 TRACE [A] Entering PreprocessingBuilder build();kind=9
+01:04:28,696 TRACE [A] Preprocessing file : C:/Users/User/BlackBerryWorkspace/PlateMe/src/PlateMePackage/PlateMeScreen.java
+01:04:28,704 TRACE [A] File PlateMeScreen.java is marked as need to be built by java compiler.
+01:04:28,705 TRACE [A] Leaving PreprocessingBuilder build()
+01:04:28,705 TRACE [B] Entering ResourcesBuilder build();kind=9
+01:04:28,705 TRACE [B] Leaving ResourcesBuilder build()
+01:04:28,712 TRACE [A] Project PlateMe is marked as need RAPC.
+01:04:28,713 DEBUG [V] SigningKey cache is populated for vm: BlackBerry JRE 7.0.0
+01:04:29,911 DEBUG [K] Packaging PlateMe
+01:04:29,928 TRACE [F] Execute rapc command: C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\bin\rapc.exe -convertpng -quiet codename=deliverables\Standard\7.0.0\PlateMe -sourceroot=C:\Users\User\BlackBerryWorkspace\PlateMe\src;C:\Users\User\BlackBerryWorkspace\PlateMe\res -import=C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\lib\net_rim_api.jar deliverables\Standard\7.0.0\PlateMe.rapc C:\Users\User\BlackBerryWorkspace\PlateMe\bin; Working Directory: C:\Users\User\BlackBerryWorkspace\PlateMe
+01:04:31,776 TRACE [A] Project PlateMe is marked as not need RAPC.
+01:04:31,777 TRACE [A] Project PlateMe folder copy: deliverables/Standard/7.0.0 --> deliverables/Web/7.0.0
+01:04:31,778 TRACE [L] Copy PlateMe.cod
+01:04:31,780 TRACE [L] Copy PlateMe.cso
+01:04:31,781 TRACE [L] Copy PlateMe.debug
+01:04:31,782 TRACE [L] Copy PlateMe.jad
+01:04:31,783 TRACE [L] Copy PlateMe.jar
+01:04:31,784 TRACE [L] Copy PlateMe.rapc
+01:04:31,789 TRACE [L] Project PlateMe undeploy from C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator
+01:04:31,789 TRACE [L] Erase PlateMe.cod
+01:04:31,790 TRACE [L] Erase PlateMe.jar
+01:04:31,791 TRACE [L] Erase PlateMe.debug
+01:04:31,792 TRACE [L] Erase PlateMe.cso
+01:04:31,792 TRACE [L] Project PlateMe deploy --> C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator
+01:04:31,793 TRACE [L] Copy PlateMe.cod
+01:04:31,794 TRACE [L] Copy PlateMe.jar
+01:04:31,795 TRACE [L] Copy PlateMe.debug
+01:04:31,796 TRACE [L] Copy PlateMe.cso
+01:04:31,798 INFO  [K] Simulator launch command:"C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator\fledge.exe" /handheld=9930 /app-param=JvmAlxConfigFile:9930.xml /pin=0x2100000A /data-port=0x4d44 /data-port=0x4d4e /session=9930 /app-param=launch=PlateMe /app="C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator\Jvm.dll" /app-param=DisableRegistration
+01:04:31,798 INFO  [K] Working directory:C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator
+01:04:31,798 INFO  [K] Launch MDS-CS:false
+01:04:31,798 INFO  [K] MDS-CS directory:C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\MDS
+01:04:31,939 TRACE [A] Entering PreprocessingBuilder build();kind=9
+01:04:31,940 TRACE [A] Leaving PreprocessingBuilder build()
+01:04:31,941 TRACE [B] Entering ResourcesBuilder build();kind=9
+01:04:31,941 TRACE [B] Leaving ResourcesBuilder build()
+01:06:09,159 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+01:06:09,159 DEBUG [C] Property change listener is disabled.
+15:37:47,935 TRACE [R] ContextManager starting, bundle version: 1.5.0.201112201607
+15:37:48,090 DEBUG [C] Property change listener is enabled.
+15:37:48,149 TRACE [R] ContextManager startingneed update: true
+15:37:48,153 DEBUG [T] Starting Search for CPs
+15:37:48,160 DEBUG [T] CP named BlackBerry Java SDK version 7.0.0 was found at C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components
+15:37:48,175 DEBUG [B] qualifier: 0
+15:37:48,193 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components]
+15:37:48,312 DEBUG [K] VM: *ADDED* [1333682796055$C:\Program Files (x86)\Java\jre6]
+15:37:48,313 TRACE [V] Attempting to create VM with name - BlackBerry JRE 7.0.0
+15:37:48,334 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+15:38:09,548 DEBUG [B] qualifier: 19
+15:38:49,478 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+15:38:49,478 DEBUG [C] Property change listener is disabled.
+15:38:51,750 TRACE [R] ContextManager starting, bundle version: 1.5.0.201112201607
+15:38:51,907 DEBUG [C] Property change listener is enabled.
+15:38:51,965 TRACE [R] ContextManager startingneed update: true
+15:38:51,970 DEBUG [T] Starting Search for CPs
+15:38:51,976 DEBUG [T] CP named BlackBerry Java SDK version 7.0.0 was found at C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components
+15:38:51,992 DEBUG [B] qualifier: 0
+15:38:52,010 DEBUG [K] VM: *ADDED* [1333682796055$C:\Program Files (x86)\Java\jre6]
+15:38:52,010 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components]
+15:38:52,130 TRACE [V] Attempting to create VM with name - BlackBerry JRE 7.0.0
+15:38:52,199 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+15:39:07,354 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+15:39:07,354 DEBUG [C] Property change listener is disabled.
+15:45:09,586 TRACE [R] ContextManager starting, bundle version: 1.5.0.201112201607
+15:45:09,773 DEBUG [C] Property change listener is enabled.
+15:45:09,841 TRACE [R] ContextManager startingneed update: true
+15:45:09,847 DEBUG [T] Starting Search for CPs
+15:45:09,854 DEBUG [T] CP named BlackBerry Java SDK version 7.0.0 was found at C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components
+15:45:09,873 DEBUG [B] qualifier: 0
+15:45:09,890 DEBUG [K] VM: *ADDED* [1333682796055$C:\Program Files (x86)\Java\jre6]
+15:45:09,890 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components]
+15:45:10,060 TRACE [V] Attempting to create VM with name - BlackBerry JRE 7.0.0
+15:45:10,083 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+15:45:16,160 DEBUG [K] Packaging PlateMe
+15:45:16,161 TRACE [R] loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+15:45:16,302 TRACE [R] finished loading C:\Users\User\BlackBerryWorkspace\PlateMe\BlackBerry_App_Descriptor.xml
+15:45:16,350 TRACE [A] Project PlateMe folder copy: deliverables/Standard/7.0.0 --> deliverables/Web/7.0.0
+15:45:16,358 TRACE [L] Copy PlateMe.cod
+15:45:16,359 TRACE [L] Copy PlateMe.cso
+15:45:16,361 TRACE [L] Copy PlateMe.debug
+15:45:16,372 TRACE [L] Copy PlateMe.jad
+15:45:16,372 TRACE [L] Copy PlateMe.jar
+15:45:16,387 TRACE [L] Copy PlateMe.rapc
+15:45:16,632 DEBUG [R] RIA Initialization is started for C:/Eclipse/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components.....
+15:45:16,817 DEBUG [R] RIA Initialization finished in : 0 ms
+15:45:16,928 TRACE [L] Project PlateMe undeploy from C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator
+15:45:16,929 TRACE [L] Erase PlateMe.cod
+15:45:16,929 TRACE [L] Erase PlateMe.jar
+15:45:16,930 TRACE [L] Erase PlateMe.debug
+15:45:16,930 TRACE [L] Erase PlateMe.cso
+15:45:16,931 TRACE [L] Project PlateMe deploy --> C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator
+15:45:16,931 TRACE [L] Copy PlateMe.cod
+15:45:16,932 TRACE [L] Copy PlateMe.jar
+15:45:16,933 TRACE [L] Copy PlateMe.debug
+15:45:16,946 TRACE [L] Copy PlateMe.cso
+15:45:17,019 INFO  [K] Simulator launch command:"C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator\fledge.exe" /handheld=9930 /app-param=JvmAlxConfigFile:9930.xml /pin=0x2100000A /data-port=0x4d44 /data-port=0x4d4e /session=9930 /app-param=launch=PlateMe /app="C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator\Jvm.dll" /app-param=DisableRegistration
+15:45:17,019 INFO  [K] Working directory:C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator
+15:45:17,019 INFO  [K] Launch MDS-CS:false
+15:45:17,019 INFO  [K] MDS-CS directory:C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\MDS
+15:45:31,294 DEBUG [B] qualifier: 19
+15:51:56,575 DEBUG [K] Packaging PlateMe
+15:51:56,580 TRACE [A] Project PlateMe folder copy: deliverables/Standard/7.0.0 --> deliverables/Web/7.0.0
+15:51:56,581 TRACE [L] Copy PlateMe.cod
+15:51:56,585 TRACE [L] Copy PlateMe.cso
+15:51:56,586 TRACE [L] Copy PlateMe.debug
+15:51:56,586 TRACE [L] Copy PlateMe.jad
+15:51:56,587 TRACE [L] Copy PlateMe.jar
+15:51:56,588 TRACE [L] Copy PlateMe.rapc
+15:51:56,592 TRACE [L] Project PlateMe undeploy from C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator
+15:51:56,592 TRACE [L] Erase PlateMe.cod
+15:51:56,593 TRACE [L] Erase PlateMe.jar
+15:51:56,593 TRACE [L] Erase PlateMe.debug
+15:51:56,594 TRACE [L] Erase PlateMe.cso
+15:51:56,595 TRACE [L] Project PlateMe deploy --> C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator
+15:51:56,595 TRACE [L] Copy PlateMe.cod
+15:51:56,596 TRACE [L] Copy PlateMe.jar
+15:51:56,597 TRACE [L] Copy PlateMe.debug
+15:51:56,599 TRACE [L] Copy PlateMe.cso
+15:51:56,601 INFO  [K] Simulator launch command:"C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator\fledge.exe" /handheld=9930 /app-param=JvmAlxConfigFile:9930.xml /pin=0x2100000A /data-port=0x4d44 /data-port=0x4d4e /session=9930 /app-param=launch=PlateMe /app="C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator\Jvm.dll" /app-param=DisableRegistration
+15:51:56,601 INFO  [K] Working directory:C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\simulator
+15:51:56,601 INFO  [K] Launch MDS-CS:false
+15:51:56,601 INFO  [K] MDS-CS directory:C:\Eclipse\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components\MDS
+15:08:59,452 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+15:08:59,452 DEBUG [C] Property change listener is disabled.

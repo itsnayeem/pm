@@ -1,0 +1,2 @@
+/Users/kevin/Downloads/curl-7.23.1/src/CMakeFiles/curl.dir
+/Users/kevin/Downloads/curl-7.23.1/lib/CMakeFiles/libcurl.dir
